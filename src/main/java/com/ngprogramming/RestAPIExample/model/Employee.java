@@ -12,7 +12,6 @@ import lombok.*;
 @Table(name = "employees")
 @Getter
 @Setter
-@AllArgsConstructor
 public class Employee {
 
     @Id
